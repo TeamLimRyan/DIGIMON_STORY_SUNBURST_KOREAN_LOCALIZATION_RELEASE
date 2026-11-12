@@ -2,7 +2,7 @@
   "schema_version": 1,
   "game": "디지몬 스토리 선버스트",
   "edition": "sunburst",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "platform": "Nintendo DS",
   "region": "Japan",
   "source": {
@@ -14,7 +14,7 @@
     "size": 67108864
   },
   "patch": {
-    "file": "DIGIMON_STORY_SUNBURST_KO_v1.0.0.xdelta",
+    "file": "DIGIMON_STORY_SUNBURST_KO_v1.0.1.xdelta",
     "sha256": "a3964276c4d1faa0db8b15199f7959481d92596d024da895bcb1ab9475bbd7d8",
     "size": 559212,
     "format": "VCDIFF/xdelta3",
