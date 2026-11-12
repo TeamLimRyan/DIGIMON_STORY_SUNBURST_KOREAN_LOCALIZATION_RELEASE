@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "game": "디지몬 스토리 선버스트",
+  "edition": "sunburst",
+  "version": "v1.0.0",
+  "platform": "Nintendo DS",
+  "region": "Japan",
+  "source": {
+    "sha256": "47d61774d5923f1aff936d9e6adc43f7a376fb12186ab1fa64ceddeafb44f723",
+    "size": 67108864
+  },
+  "target": {
+    "sha256": "3a6585aabedb58fe0adbf304303b4db728b5bb688e692b73f410ffb6eb8ad6ca",
+    "size": 67108864
+  },
+  "patch": {
+    "file": "DIGIMON_STORY_SUNBURST_KO_v1.0.0.xdelta",
+    "sha256": "a3964276c4d1faa0db8b15199f7959481d92596d024da895bcb1ab9475bbd7d8",
+    "size": 559212,
+    "format": "VCDIFF/xdelta3",
+    "application_header": false
+  },
+  "roundtrip": {
+    "sha256": "3a6585aabedb58fe0adbf304303b4db728b5bb688e692b73f410ffb6eb8ad6ca",
+    "size": 67108864
+  },
+  "tool": {
+    "name": "xdelta3",
+    "version": "3.2.2",
+    "sha256": "732980d52f9220dc81817ccdd0c295eadce8a0048a24c2a771a73f791ac824e9"
+  },
+  "validation": {
+    "platform": "Windows x64",
+    "roundtrip": "PASS",
+    "owner_review": "ACCEPTED",
+    "runtime": "libretro DeSmuME; sampled scenarios; see COMPATIBILITY.md"
+  }
+}
